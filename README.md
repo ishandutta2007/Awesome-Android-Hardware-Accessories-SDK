@@ -74,61 +74,61 @@ The following enterprise cloud services offer hosted physical Android device far
 
 ## 💻 Open-Source GitHub Projects
 
-Leading open-source projects for Android hardware accessories, USB OTG, Bluetooth LE, screen mirroring, and device farms, sorted in descending order of GitHub stars:
+Leading open-source projects for Android hardware accessories, USB OTG, Bluetooth LE, screen mirroring, and device farms, sorted in descending order of GitHub_Stars:
 
-### 1. **[scrcpy](https://github.com/Genymobile/scrcpy)** [![GitHub stars](https://img.shields.io/github/stars/Genymobile/scrcpy?style=social&color=white)](https://github.com/Genymobile/scrcpy/stargazers)
+### 1. **[scrcpy](https://github.com/Genymobile/scrcpy)** [![GitHub_Stars](https://img.shields.io/github/stars/Genymobile/scrcpy?style=social&color=white)](https://github.com/Genymobile/scrcpy/stargazers)
 * **Category**: Screen Mirroring & Hardware Input Forwarding
 * **Description**: Ultra-low-latency display mirroring and control utility over USB or TCP/IP. Supports physical USB OTG HID emulation for keyboard/mouse forwarding, Android 12+ audio forwarding, and webcam simulation.
 
-### 2. **[Shizuku](https://github.com/RikkaApps/Shizuku)** [![GitHub stars](https://img.shields.io/github/stars/RikkaApps/Shizuku?style=social&color=white)](https://github.com/RikkaApps/Shizuku/stargazers)
+### 2. **[Shizuku](https://github.com/RikkaApps/Shizuku)** [![GitHub_Stars](https://img.shields.io/github/stars/RikkaApps/Shizuku?style=social&color=white)](https://github.com/RikkaApps/Shizuku/stargazers)
 * **Category**: Privileged Android API & Hardware Bridge
 * **Description**: Allows open-source Android apps to seamlessly invoke privileged system APIs and hardware management services directly with ADB or root privileges via an efficient binder IPC architecture.
 
-### 3. **[google/adk-python](https://github.com/google/adk-python)** [![GitHub stars](https://img.shields.io/github/stars/google/adk-python?style=social&color=white)](https://github.com/google/adk-python/stargazers)
+### 3. **[google/adk-python](https://github.com/google/adk-python)** [![GitHub_Stars](https://img.shields.io/github/stars/google/adk-python?style=social&color=white)](https://github.com/google/adk-python/stargazers)
 * **Category**: AI Agentic Toolkits & Device Automation
 * **Description**: Google's open-source Agent Development Kit (ADK) for Python, allowing developers to orchestrate multi-agent workflows, tool calls, and automated hardware control loops.
 
-### 4. **[Appium](https://github.com/appium/appium)** [![GitHub stars](https://img.shields.io/github/stars/appium/appium?style=social&color=white)](https://github.com/appium/appium/stargazers)
+### 4. **[Appium](https://github.com/appium/appium)** [![GitHub_Stars](https://img.shields.io/github/stars/appium/appium?style=social&color=white)](https://github.com/appium/appium/stargazers)
 * **Category**: Mobile Automation & Real Device Testing
 * **Description**: Ecosystem-standard cross-platform test automation framework for physical Android devices, emulators, and hybrid apps with deep integration into real device farm topologies.
 
-### 5. **[usb-serial-for-android](https://github.com/mik3y/usb-serial-for-android)** [![GitHub stars](https://img.shields.io/github/stars/mik3y/usb-serial-for-android?style=social&color=white)](https://github.com/mik3y/usb-serial-for-android/stargazers)
+### 5. **[usb-serial-for-android](https://github.com/mik3y/usb-serial-for-android)** [![GitHub_Stars](https://img.shields.io/github/stars/mik3y/usb-serial-for-android?style=social&color=white)](https://github.com/mik3y/usb-serial-for-android/stargazers)
 * **Category**: USB OTG Hardware Serial Driver
 * **Description**: Android USB host serial driver library for talking to Arduino, FTDI (FT232R, FT2232H), Silicon Labs CP2102, Prolific PL2303, and Qinheng CH340 chipsets without requiring root permissions.
 
-### 6. **[DeviceFarmer / STF (Smartphone Test Farm)](https://github.com/DeviceFarmer/stf)** [![GitHub stars](https://img.shields.io/github/stars/DeviceFarmer/stf?style=social&color=white)](https://github.com/DeviceFarmer/stf/stargazers)
+### 6. **[DeviceFarmer / STF (Smartphone Test Farm)](https://github.com/DeviceFarmer/stf)** [![GitHub_Stars](https://img.shields.io/github/stars/DeviceFarmer/stf?style=social&color=white)](https://github.com/DeviceFarmer/stf/stargazers)
 * **Category**: Self-Hosted Real-Device Cloud Farm
 * **Description**: Battle-tested web application for controlling, debugging, and managing hundreds of real Android phones and tablets directly from any web browser in a private testing lab.
 
-### 7. **[RxAndroidBle](https://github.com/dariuszseweryn/RxAndroidBle)** [![GitHub stars](https://img.shields.io/github/stars/dariuszseweryn/RxAndroidBle?style=social&color=white)](https://github.com/dariuszseweryn/RxAndroidBle/stargazers)
+### 7. **[RxAndroidBle](https://github.com/dariuszseweryn/RxAndroidBle)** [![GitHub_Stars](https://img.shields.io/github/stars/dariuszseweryn/RxAndroidBle?style=social&color=white)](https://github.com/dariuszseweryn/RxAndroidBle/stargazers)
 * **Category**: Reactive Bluetooth Low Energy (BLE) SDK
 * **Description**: ReactiveX-based wrapper for Android Bluetooth LE that handles thread scheduling, connection state machines, queuing, and complex IoT sensor accessory communication.
 
-### 8. **[ya-webadb (Tango)](https://github.com/yume-chan/ya-webadb)** [![GitHub stars](https://img.shields.io/github/stars/yume-chan/ya-webadb?style=social&color=white)](https://github.com/yume-chan/ya-webadb/stargazers)
+### 8. **[ya-webadb (Tango)](https://github.com/yume-chan/ya-webadb)** [![GitHub_Stars](https://img.shields.io/github/stars/yume-chan/ya-webadb?style=social&color=white)](https://github.com/yume-chan/ya-webadb/stargazers)
 * **Category**: WebUSB & In-Browser ADB Protocol
 * **Description**: Complete TypeScript implementation of the Android Debug Bridge (ADB) protocol running client-side inside modern web browsers using the WebUSB and WebStreams APIs.
 
-### 9. **[ws-scrcpy](https://github.com/NetrisTV/ws-scrcpy)** [![GitHub stars](https://img.shields.io/github/stars/NetrisTV/ws-scrcpy?style=social&color=white)](https://github.com/NetrisTV/ws-scrcpy/stargazers)
+### 9. **[ws-scrcpy](https://github.com/NetrisTV/ws-scrcpy)** [![GitHub_Stars](https://img.shields.io/github/stars/NetrisTV/ws-scrcpy?style=social&color=white)](https://github.com/NetrisTV/ws-scrcpy/stargazers)
 * **Category**: Web-Based Device Streaming & Control
 * **Description**: WebSockets-based web client and server for `scrcpy`, allowing real-time screen streaming, low-latency H.264/H.265 video decoding in browser canvases, and remote touch/key injection.
 
-### 10. **[Android-BLE-Library](https://github.com/NordicSemiconductor/Android-BLE-Library)** [![GitHub stars](https://img.shields.io/github/stars/NordicSemiconductor/Android-BLE-Library?style=social&color=white)](https://github.com/NordicSemiconductor/Android-BLE-Library/stargazers)
+### 10. **[Android-BLE-Library](https://github.com/NordicSemiconductor/Android-BLE-Library)** [![GitHub_Stars](https://img.shields.io/github/stars/NordicSemiconductor/Android-BLE-Library?style=social&color=white)](https://github.com/NordicSemiconductor/Android-BLE-Library/stargazers)
 * **Category**: BLE Peripheral & GATT Manager
 * **Description**: Official Nordic Semiconductor library resolving Android GATT queuing quirks, MTU negotiation, bonding, connection timeouts, and peripheral accessory telemetry.
 
-### 11. **[Sonic Cloud Real Device Platform](https://github.com/SonicCloudOrg/sonic-server)** [![GitHub stars](https://img.shields.io/github/stars/SonicCloudOrg/sonic-server?style=social&color=white)](https://github.com/SonicCloudOrg/sonic-server/stargazers)
+### 11. **[Sonic Cloud Real Device Platform](https://github.com/SonicCloudOrg/sonic-server)** [![GitHub_Stars](https://img.shields.io/github/stars/SonicCloudOrg/sonic-server?style=social&color=white)](https://github.com/SonicCloudOrg/sonic-server/stargazers)
 * **Category**: Distributed Real-Device Test Cloud
 * **Description**: Next-generation distributed real-device farm platform supporting cross-platform remote control, automated UI testing, and acoustic/visual hardware telemetry.
 
-### 12. **[UsbSerial](https://github.com/felHR85/UsbSerial)** [![GitHub stars](https://img.shields.io/github/stars/felHR85/UsbSerial?style=social&color=white)](https://github.com/felHR85/UsbSerial/stargazers)
+### 12. **[UsbSerial](https://github.com/felHR85/UsbSerial)** [![GitHub_Stars](https://img.shields.io/github/stars/felHR85/UsbSerial?style=social&color=white)](https://github.com/felHR85/UsbSerial/stargazers)
 * **Category**: USB Host Serial & CDC-ACM Library
 * **Description**: Lightweight USB-to-serial driver library for Android supporting CDC-ACM, FTDI, CP210x, and CH34x accessories for embedded electronics and robotics integration.
 
-### 13. **[adb-enhanced](https://github.com/ashishb/adb-enhanced)** [![GitHub stars](https://img.shields.io/github/stars/ashishb/adb-enhanced?style=social&color=white)](https://github.com/ashishb/adb-enhanced/stargazers)
+### 13. **[adb-enhanced](https://github.com/ashishb/adb-enhanced)** [![GitHub_Stars](https://img.shields.io/github/stars/ashishb/adb-enhanced?style=social&color=white)](https://github.com/ashishb/adb-enhanced/stargazers)
 * **Category**: ADB Hardware State Automation CLI
 * **Description**: Swiss Army knife command-line tool wrapping ADB to quickly toggle hardware states (Wi-Fi, mobile data, airplane mode, battery levels, sensor mocking) and run diagnostics.
 
-### 14. **[Appium UiAutomator2 Driver](https://github.com/appium/appium-uiautomator2-driver)** [![GitHub stars](https://img.shields.io/github/stars/appium/appium-uiautomator2-driver?style=social&color=white)](https://github.com/appium/appium-uiautomator2-driver/stargazers)
+### 14. **[Appium UiAutomator2 Driver](https://github.com/appium/appium-uiautomator2-driver)** [![GitHub_Stars](https://img.shields.io/github/stars/appium/appium-uiautomator2-driver?style=social&color=white)](https://github.com/appium/appium-uiautomator2-driver/stargazers)
 * **Category**: Android UI & Hardware Test Automation Driver
 * **Description**: Native test execution engine powered by Google's UiAutomator2 framework, driving automated hardware interactions, touch gestures, and accessibility tree parsing on physical Android devices.
 
@@ -140,7 +140,7 @@ We actively welcome contributions to keep this ecosystem up-to-date!
 
 1. 🍴 **Fork the repository** on GitHub.
 2. 🌿 **Create a new branch**: `git checkout -b feature/add-new-accessory-sdk`.
-3. 📝 **Add your entry**: Follow the established format with link, official name, star badge, and description.
+3. 📝 **Add your entry**: Follow the established format with link, official name, Stars_Badge, and description.
 4. 🚀 **Submit a Pull Request**: Provide a concise summary of why the tool/SDK should be included.
 
 ---
