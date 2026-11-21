@@ -1,47 +1,62 @@
-# Awesome-Android-Hardware-Accessories-SDK
-# Awesome-Android-Hardware-Accessories-SDK
+<div align="center">
 
-## Top Android Hardware & Accessories SDK Ecosystem
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Android-Hardware-Accessories-SDK"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Android-Hardware-Accessories-SDK?style=for-the-badge&logo=github&color=3DDC84&label=Stars" alt="Stars" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Android-Hardware-Accessories-SDK/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Android-Hardware-Accessories-SDK?style=for-the-badge&logo=github&color=00E5FF&label=Forks" alt="Forks" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Android-Hardware-Accessories-SDK/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License" /></a>
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
+<br/><br/>
 
+<a href="https://github.com/ishandutta2007/Awesome-Android-Hardware-Accessories-SDK">
+  <img src="assets/banner.svg" alt="Awesome Android Hardware Accessories SDK Banner" width="100%" />
+</a>
 
-**Curated List of SaaS/Hosted Platforms & Open-Source GitHub Projects**  
+# 🤖 Awesome Android Hardware & Accessories SDK Ecosystem
 
-*Focused on Hardware Peripheral SDKs, Device Farms, USB/Bluetooth Accessories, Remote Device Control & Agentic Toolkits*  
+**Curated list of leading SaaS / Hosted Device Farms, Open-Source Android Hardware Accessories SDKs, USB OTG / BLE drivers, WebUSB ADB tools, and AI Agentic automation platforms.**
 
-**Last updated: November 2026**
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Android-Hardware-Accessories-SDK/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Android-Hardware-Accessories-SDK)
+[![Awesome](https://img.shields.io/badge/Awesome-Android%20Hardware-orange.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Android-Hardware-Accessories-SDK)
 
+</div>
 
+---
 
-This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **Android Hardware & Accessories SDKs**. These tools enable developers and engineers to interface with physical Android hardware, USB/Bluetooth accessories, external displays, remote device farms, and automated testing or agentic development workflows across local and cloud environments.
+## 📌 Introduction & Scope
 
+Welcome to the **Awesome Android Hardware & Accessories SDK** catalog. This repository indexes the most comprehensive collection of **enterprise SaaS platforms** and **active open-source GitHub repositories** enabling developers, hardware engineers, QA teams, and embedded specialists to interface with:
 
+* 📱 **Physical Android Device Farms**: Remote test execution, browser streaming, and multi-device QA labs.
+* 🔌 **USB OTG & Serial Accessories**: Serial bus bridges (FTDI, CP210x, CH340, Arduino) and Android Open Accessory (AOA) protocols.
+* 📶 **Bluetooth Low Energy (BLE) & IoT**: Robust GATT queues, bonding managers, wearable connectivity, and sensor data pipelines.
+* ⚡ **Remote ADB & WebUSB Streaming**: Zero-install browser mirroring, touch/keyboard forwarding, and direct ADB over SSL/WebSockets.
+* 🤖 **Agentic Hardware Control & Testing**: Autonomous AI agents controlling physical and virtual devices via modern SDKs and tools.
 
-**Examples** include Android Studio Cloud, Samsung DeX Developer, Google Play Console, ADB Cloud, Scrcpy Web, Vysor Cloud, Genymotion Cloud, BrowserStack App Live, Sauce Labs Real Devices, AWS Device Farm, and google/adk-python (the category leaders and popular toolkits). 
+---
 
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Device Platforms](#️-saas--hosted-device-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⭐ Star History](#-star-history)
+- [💖 Support & Community](#-support--community)
+- [⚠️ Disclaimer](#️-disclaimer)
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosted real-device farms, open-source ADB/USB hardware communication libraries, web-based screen mirroring, and agentic development kits — ideal for hardware engineers, QA teams, embedded Android developers, and researchers building transparent device testing and accessory pipelines.
+---
 
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global mobile app testing and cloud device farm sector is estimated at **$8B – $12B**, expanding rapidly at a CAGR of 16–17.5% driven by continuous testing and mobile hardware fragmentation. The market exhibits an **oligopoly-leaning concentration at the cloud device infrastructure layer** (dominated by hyperscalers like AWS/Google and specialized leaders like BrowserStack and Sauce Labs due to heavy hardware Capex), while remaining **moderately-to-highly fragmented across test execution frameworks, developer utilities, and open-source tooling**.
 
-## SaaS/Hosted Platforms
+---
+
+## ☁️ SaaS & Hosted Device Platforms
+
+The following enterprise cloud services offer hosted physical Android device farms, cloud IDEs, and device hardware simulation:
 
 | Platform | Company Valuation / Revenue | Starting Pricing Tier | Free Tier Limits / Free Trial | Description |
 |---|---|---|---|---|
@@ -55,128 +70,106 @@ The global mobile app testing and cloud device farm sector is estimated at **$8B
 | **[Genymotion Cloud](https://genymotion.com)** | **~$6M ARR** (Acquired by Shadow) | $0.05 / minute on Pay-as-you-go, or $179 / month flat rate per virtual device | **Free Trial**: 60 free minutes (max 2 concurrent devices) for individuals; 1,000 free minutes (up to 10 concurrent devices) for company verified trials | Cloud-hosted virtual Android device platform supporting sensor emulation, GPS/battery mocking, and CI/CD hardware test orchestration. |
 | **[Vysor Cloud](https://vysor.io)** | **Bootstrapped Indie / ~$1M–$3M ARR** (5M+ downloads) | $2.50 / month, $10.00 / year, or $40.00 lifetime license for Vysor Pro | **Free Plan**: Free forever plan limited to USB-only connection, SD resolution (~30fps, basic bitrate), ad-supported, no Vysor Share, and no drag-and-drop transfers | Commercial screen mirroring and remote device sharing platform allowing teams to share physical USB-connected Android devices over the web. |
 
+---
 
+## 💻 Open-Source GitHub Projects
 
+Leading open-source projects for Android hardware accessories, USB OTG, Bluetooth LE, screen mirroring, and device farms, sorted in descending order of GitHub stars:
 
+### 1. **[scrcpy](https://github.com/Genymobile/scrcpy)** [![GitHub stars](https://img.shields.io/github/stars/Genymobile/scrcpy?style=social&color=white)](https://github.com/Genymobile/scrcpy/stargazers)
+* **Category**: Screen Mirroring & Hardware Input Forwarding
+* **Description**: Ultra-low-latency display mirroring and control utility over USB or TCP/IP. Supports physical USB OTG HID emulation for keyboard/mouse forwarding, Android 12+ audio forwarding, and webcam simulation.
 
-## Open-Source GitHub Projects
+### 2. **[Shizuku](https://github.com/RikkaApps/Shizuku)** [![GitHub stars](https://img.shields.io/github/stars/RikkaApps/Shizuku?style=social&color=white)](https://github.com/RikkaApps/Shizuku/stargazers)
+* **Category**: Privileged Android API & Hardware Bridge
+* **Description**: Allows open-source Android apps to seamlessly invoke privileged system APIs and hardware management services directly with ADB or root privileges via an efficient binder IPC architecture.
 
+### 3. **[google/adk-python](https://github.com/google/adk-python)** [![GitHub stars](https://img.shields.io/github/stars/google/adk-python?style=social&color=white)](https://github.com/google/adk-python/stargazers)
+* **Category**: AI Agentic Toolkits & Device Automation
+* **Description**: Google's open-source Agent Development Kit (ADK) for Python, allowing developers to orchestrate multi-agent workflows, tool calls, and automated hardware control loops.
 
+### 4. **[Appium](https://github.com/appium/appium)** [![GitHub stars](https://img.shields.io/github/stars/appium/appium?style=social&color=white)](https://github.com/appium/appium/stargazers)
+* **Category**: Mobile Automation & Real Device Testing
+* **Description**: Ecosystem-standard cross-platform test automation framework for physical Android devices, emulators, and hybrid apps with deep integration into real device farm topologies.
 
-- **[google/adk-python](https://github.com)**  
+### 5. **[usb-serial-for-android](https://github.com/mik3y/usb-serial-for-android)** [![GitHub stars](https://img.shields.io/github/stars/mik3y/usb-serial-for-android?style=social&color=white)](https://github.com/mik3y/usb-serial-for-android/stargazers)
+* **Category**: USB OTG Hardware Serial Driver
+* **Description**: Android USB host serial driver library for talking to Arduino, FTDI (FT232R, FT2232H), Silicon Labs CP2102, Prolific PL2303, and Qinheng CH340 chipsets without requiring root permissions.
 
-  Google's open-source Agent Development Kit (ADK) for Python, enabling developers to build, evaluate, and orchestrate modular AI agents and hardware/API tool integrations.
+### 6. **[DeviceFarmer / STF (Smartphone Test Farm)](https://github.com/DeviceFarmer/stf)** [![GitHub stars](https://img.shields.io/github/stars/DeviceFarmer/stf?style=social&color=white)](https://github.com/DeviceFarmer/stf/stargazers)
+* **Category**: Self-Hosted Real-Device Cloud Farm
+* **Description**: Battle-tested web application for controlling, debugging, and managing hundreds of real Android phones and tablets directly from any web browser in a private testing lab.
 
+### 7. **[RxAndroidBle](https://github.com/dariuszseweryn/RxAndroidBle)** [![GitHub stars](https://img.shields.io/github/stars/dariuszseweryn/RxAndroidBle?style=social&color=white)](https://github.com/dariuszseweryn/RxAndroidBle/stargazers)
+* **Category**: Reactive Bluetooth Low Energy (BLE) SDK
+* **Description**: ReactiveX-based wrapper for Android Bluetooth LE that handles thread scheduling, connection state machines, queuing, and complex IoT sensor accessory communication.
 
+### 8. **[ya-webadb (Tango)](https://github.com/yume-chan/ya-webadb)** [![GitHub stars](https://img.shields.io/github/stars/yume-chan/ya-webadb?style=social&color=white)](https://github.com/yume-chan/ya-webadb/stargazers)
+* **Category**: WebUSB & In-Browser ADB Protocol
+* **Description**: Complete TypeScript implementation of the Android Debug Bridge (ADB) protocol running client-side inside modern web browsers using the WebUSB and WebStreams APIs.
 
-- **[DeviceFarmer / STF (Smartphone Test Farm)](https://github.com)**  
+### 9. **[ws-scrcpy](https://github.com/NetrisTV/ws-scrcpy)** [![GitHub stars](https://img.shields.io/github/stars/NetrisTV/ws-scrcpy?style=social&color=white)](https://github.com/NetrisTV/ws-scrcpy/stargazers)
+* **Category**: Web-Based Device Streaming & Control
+* **Description**: WebSockets-based web client and server for `scrcpy`, allowing real-time screen streaming, low-latency H.264/H.265 video decoding in browser canvases, and remote touch/key injection.
 
-  Open-source web application for remotely controlling, debugging, and managing large farms of physical Android devices directly from a browser.
+### 10. **[Android-BLE-Library](https://github.com/NordicSemiconductor/Android-BLE-Library)** [![GitHub stars](https://img.shields.io/github/stars/NordicSemiconductor/Android-BLE-Library?style=social&color=white)](https://github.com/NordicSemiconductor/Android-BLE-Library/stargazers)
+* **Category**: BLE Peripheral & GATT Manager
+* **Description**: Official Nordic Semiconductor library resolving Android GATT queuing quirks, MTU negotiation, bonding, connection timeouts, and peripheral accessory telemetry.
 
+### 11. **[Sonic Cloud Real Device Platform](https://github.com/SonicCloudOrg/sonic-server)** [![GitHub stars](https://img.shields.io/github/stars/SonicCloudOrg/sonic-server?style=social&color=white)](https://github.com/SonicCloudOrg/sonic-server/stargazers)
+* **Category**: Distributed Real-Device Test Cloud
+* **Description**: Next-generation distributed real-device farm platform supporting cross-platform remote control, automated UI testing, and acoustic/visual hardware telemetry.
 
+### 12. **[UsbSerial](https://github.com/felHR85/UsbSerial)** [![GitHub stars](https://img.shields.io/github/stars/felHR85/UsbSerial?style=social&color=white)](https://github.com/felHR85/UsbSerial/stargazers)
+* **Category**: USB Host Serial & CDC-ACM Library
+* **Description**: Lightweight USB-to-serial driver library for Android supporting CDC-ACM, FTDI, CP210x, and CH34x accessories for embedded electronics and robotics integration.
 
-- **[ws-scrcpy (Scrcpy Web)](https://github.com)**  
+### 13. **[adb-enhanced](https://github.com/ashishb/adb-enhanced)** [![GitHub stars](https://img.shields.io/github/stars/ashishb/adb-enhanced?style=social&color=white)](https://github.com/ashishb/adb-enhanced/stargazers)
+* **Category**: ADB Hardware State Automation CLI
+* **Description**: Swiss Army knife command-line tool wrapping ADB to quickly toggle hardware states (Wi-Fi, mobile data, airplane mode, battery levels, sensor mocking) and run diagnostics.
 
-  Open-source WebSockets-based web client for `scrcpy`, enabling low-latency browser mirroring, touch/keyboard input, and remote ADB control of Android hardware.
-
-
-
-- **[scrcpy](https://github.com)**  
-
-  High-performance open-source screen mirroring and control utility supporting physical USB OTG HID keyboard/mouse forwarding and camera/audio streaming.
-
-
-
-- **[usb-serial-for-android](https://github.com)**  
-
-  Open-source Android USB host serial driver library for communicating with Arduino, FTDI, CP210x, CH340, and custom hardware accessories over USB OTG.
-
-
-
-- **[Android Open Accessory (AOA) & libusb](https://github.com)**  
-
-  Cross-platform open-source C/JNI library for direct low-level USB device access and custom hardware accessory communication on Android.
-
-
-
-- **[Nordic Android-BLE-Library](https://github.com)**  
-
-  Robust open-source Bluetooth Low Energy (BLE) wrapper solving Android GATT queue, bonding, and peripheral accessory connection quirks.
-
-
-
-- **[RxAndroidBle](https://github.com)**  
-
-  Reactive open-source Bluetooth Low Energy library for managing complex multi-device wearable, sensor, and IoT accessory connections.
-
-
-
-- **[adb-enhanced (adbe)](https://github.com)**  
-
-  Open-source command-line Swiss Army knife wrapping ADB for rapid hardware state toggling (Wi-Fi, battery, sensors, permissions, and screen recording).
-
-
-
-- **[Tango / OpenADB (ya-webadb)](https://github.com)**  
-
-  Open-source TypeScript implementation of the Android Debug Bridge (ADB) protocol running directly in web browsers via WebUSB.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Appium UiAutomator2 Driver](https://github.com)** for open-source automated UI and hardware interaction testing on real Android devices.
-
-- **[Sonic Cloud Real Device Platform](https://github.com)** for self-hosted remote physical Android/iOS device labs and automated hardware testing.
-
-- **[Android Things / Peripheral I/O Samples](https://github.com)** for GPIO, PWM, I2C, SPI, and UART hardware interfacing patterns on embedded Android.
-
-- **[Shizuku](https://github.com)** for granting open-source apps direct access to privileged Android system and hardware APIs via ADB without root.
-
-- Many community **WebUSB ADB** and **HID Gadget** scripts for turning Android hardware into programmable USB peripherals.
-
-
-
-**Frameworks for building custom systems**: Combine **DeviceFarmer STF** or **ws-scrcpy**, **ya-webadb**, **usb-serial-for-android**, and **Appium** with **google/adk-python** for self-hosted hardware testing labs and intelligent device automation.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS/hosted or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Interfacing with external USB/Bluetooth hardware and exposing remote ADB endpoints over networks requires strict authentication and firewall rules.
-
-- Self-hosted device farms require proper thermal management, battery-charge limiting, and powered USB hub hardware.
-
-
+### 14. **[Appium UiAutomator2 Driver](https://github.com/appium/appium-uiautomator2-driver)** [![GitHub stars](https://img.shields.io/github/stars/appium/appium-uiautomator2-driver?style=social&color=white)](https://github.com/appium/appium-uiautomator2-driver/stargazers)
+* **Category**: Android UI & Hardware Test Automation Driver
+* **Description**: Native test execution engine powered by Google's UiAutomator2 framework, driving automated hardware interactions, touch gestures, and accessibility tree parsing on physical Android devices.
 
 ---
 
+## 🤝 How to Contribute
 
+We actively welcome contributions to keep this ecosystem up-to-date!
 
-**Made for Android hardware engineers, QA automation teams, IoT developers, and open-source contributors.**  
+1. 🍴 **Fork the repository** on GitHub.
+2. 🌿 **Create a new branch**: `git checkout -b feature/add-new-accessory-sdk`.
+3. 📝 **Add your entry**: Follow the established format with link, official name, star badge, and description.
+4. 🚀 **Submit a Pull Request**: Provide a concise summary of why the tool/SDK should be included.
 
-Let's make Android hardware integration and remote device testing more open, accessible, and reliable.
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Android-Hardware-Accessories-SDK&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Android-Hardware-Accessories-SDK&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Community
+
+Thank you for exploring and supporting the **Awesome Android Hardware & Accessories SDK** ecosystem!
+
+If you find this repository helpful for your projects, research, or hardware lab setups:
+* ⭐ **Star this repository** to help others discover it.
+* 🍴 **Fork and share** with fellow hardware and Android developers.
+* ☕ **Sponsor or buy a coffee**: Support ongoing curation and maintenance via the [Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚠️ Disclaimer
+
+* This is an independent, community-curated directory — listings do not constitute commercial endorsement.
+* Interfacing with external USB/Bluetooth hardware and exposing remote ADB endpoints over networks requires strict authentication and firewall controls.
+* Self-hosted device farms require proper thermal management, battery-charge limiting (e.g., smart plugs / battery bypass), and powered USB hub infrastructure.
+
+---
+
+<div align="center">
+  <b>Built with ❤️ for Android hardware engineers, QA automation teams, IoT developers, and open-source contributors worldwide.</b>
+</div>

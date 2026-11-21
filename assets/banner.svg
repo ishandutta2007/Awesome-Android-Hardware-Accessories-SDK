@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#070a12" />
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3DDC84" />
+      <stop offset="50%" stop-color="#00E5FF" />
+      <stop offset="100%" stop-color="#7C4DFF" />
+    </linearGradient>
+
+    <!-- Dynamic Glowing Lights -->
+    <radialGradient id="glowGreen" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3DDC84" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#3DDC84" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C4DFF" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#7C4DFF" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1" />
+      <circle cx="40" cy="40" r="1" fill="rgba(61, 220, 132, 0.15)" />
+    </pattern>
+
+    <style>
+      .title-text {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 46px;
+        fill: #ffffff;
+        letter-spacing: -1px;
+      }
+      .accent-word {
+        fill: url(#primaryGrad);
+      }
+      .subtitle-text {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 19px;
+        fill: #94A3B8;
+        letter-spacing: 0.2px;
+      }
+      .pill-text {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        fill: #E2E8F0;
+      }
+      /* Dynamic Animations (Background Only) */
+      @keyframes pulseOrb {
+        0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.6; }
+        50% { transform: scale(1.15) translate(30px, -20px); opacity: 0.9; }
+      }
+      @keyframes waveStream {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: 200; }
+      }
+      @keyframes floatParticle {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-12px); }
+      }
+      .orb-1 { animation: pulseOrb 8s infinite ease-in-out; }
+      .orb-2 { animation: pulseOrb 10s infinite ease-in-out reverse; }
+      .data-stream {
+        stroke-dasharray: 8 12;
+        animation: waveStream 6s linear infinite;
+      }
+      .floating-node { animation: floatParticle 5s ease-in-out infinite; }
+      .floating-node-2 { animation: floatParticle 7s ease-in-out infinite reverse; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="420" fill="url(#bgGrad)" />
+
+  <!-- Animated Ambient Glows (Behind content) -->
+  <circle class="orb-1" cx="200" cy="120" r="180" fill="url(#glowGreen)" />
+  <circle class="orb-2" cx="1020" cy="300" r="220" fill="url(#glowPurple)" />
+
+  <!-- Grid overlay -->
+  <rect width="1200" height="420" fill="url(#grid)" />
+
+  <!-- Dynamic Technical Circuit / Data Flow Lines (Behind text) -->
+  <g opacity="0.4">
+    <path class="data-stream" d="M 80,360 L 260,360 L 320,310 L 880,310 L 940,360 L 1120,360" fill="none" stroke="#3DDC84" stroke-width="2" />
+    <path class="data-stream" d="M 120,80 L 300,80 L 360,130 L 840,130 L 900,80 L 1080,80" fill="none" stroke="#00E5FF" stroke-width="1.5" />
+    <circle class="floating-node" cx="320" cy="310" r="4" fill="#3DDC84" />
+    <circle class="floating-node-2" cx="880" cy="310" r="4" fill="#00E5FF" />
+    <circle class="floating-node" cx="360" cy="130" r="4" fill="#7C4DFF" />
+    <circle class="floating-node-2" cx="840" cy="130" r="4" fill="#3DDC84" />
+  </g>
+
+  <!-- Foreground Content: Brand Badge / Tech Pill -->
+  <g transform="translate(600, 80)">
+    <rect x="-140" y="-18" width="280" height="36" rx="18" fill="rgba(61, 220, 132, 0.12)" stroke="rgba(61, 220, 132, 0.4)" stroke-width="1.5" />
+    <circle cx="-116" cy="0" r="6" fill="#3DDC84" />
+    <text x="-98" y="5" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#3DDC84" letter-spacing="1.5">ANDROID HARDWARE &amp; ACCESSORIES</text>
+  </g>
+
+  <!-- Foreground Content: Main Title -->
+  <text class="title-text" x="600" y="165" text-anchor="middle">
+    Awesome Android <tspan class="accent-word">Hardware SDKs</tspan>
+  </text>
+
+  <!-- Foreground Content: Subtitle -->
+  <text class="subtitle-text" x="600" y="215" text-anchor="middle">
+    Curated SaaS Platforms, Device Farms, USB/BLE Accessories, ADB Toolkits &amp; Agentic Systems
+  </text>
+
+  <!-- Foreground Content: Feature Tag Pills -->
+  <g transform="translate(600, 290)">
+    <!-- Pill 1: Real Device Farms -->
+    <g transform="translate(-460, 0)">
+      <rect x="0" y="0" width="165" height="42" rx="21" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+      <text class="pill-text" x="82.5" y="26" text-anchor="middle">📱 Cloud Device Farms</text>
+    </g>
+
+    <!-- Pill 2: USB OTG & Serial -->
+    <g transform="translate(-275, 0)">
+      <rect x="0" y="0" width="170" height="42" rx="21" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+      <text class="pill-text" x="85" y="26" text-anchor="middle">🔌 USB Serial &amp; AOA</text>
+    </g>
+
+    <!-- Pill 3: Bluetooth LE IoT -->
+    <g transform="translate(-85, 0)">
+      <rect x="0" y="0" width="170" height="42" rx="21" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+      <text class="pill-text" x="85" y="26" text-anchor="middle">📶 Bluetooth LE &amp; IoT</text>
+    </g>
+
+    <!-- Pill 4: WebUSB & ADB Tools -->
+    <g transform="translate(105, 0)">
+      <rect x="0" y="0" width="170" height="42" rx="21" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+      <text class="pill-text" x="85" y="26" text-anchor="middle">⚡ WebUSB &amp; Remote ADB</text>
+    </g>
+
+    <!-- Pill 5: Agentic Automation -->
+    <g transform="translate(295, 0)">
+      <rect x="0" y="0" width="165" height="42" rx="21" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+      <text class="pill-text" x="82.5" y="26" text-anchor="middle">🤖 Agentic Automation</text>
+    </g>
+  </g>
+</svg>
