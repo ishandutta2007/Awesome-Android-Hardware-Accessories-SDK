@@ -31,71 +31,29 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saashosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global mobile app testing and cloud device farm sector is estimated at **$8B – $12B**, expanding rapidly at a CAGR of 16–17.5% driven by continuous testing and mobile hardware fragmentation. The market exhibits an **oligopoly-leaning concentration at the cloud device infrastructure layer** (dominated by hyperscalers like AWS/Google and specialized leaders like BrowserStack and Sauce Labs due to heavy hardware Capex), while remaining **moderately-to-highly fragmented across test execution frameworks, developer utilities, and open-source tooling**.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[AWS Device Farm](https://amazon.com)**  
-
-  Cloud-based app testing service providing remote access to real physical Android phones, tablets, and hardware configurations.
-
-
-
-- **[BrowserStack App Live](https://browserstack.com)**  
-
-  Interactive cloud testing platform offering instant access to thousands of real physical Android devices with hardware sensor simulation.
-
-
-
-- **[Sauce Labs Real Devices](https://saucelabs.com)**  
-
-  Enterprise real-device cloud enabling manual and automated testing across physical Android smartphones and tablets.
-
-
-
-- **[Android Studio Cloud (Firebase App Testing / Project IDX)](https://android.com)**  
-
-  Google-hosted cloud IDE and remote device streaming environment for building, debugging, and testing Android apps on physical hardware.
-
-
-
-- **[Google Play Console (Device Catalog & Pre-Launch Reports)](https://google.com)**  
-
-  Official distribution and hardware compatibility platform providing automated physical device testing, crash diagnostics, and hardware targeting.
-
-
-
-- **[Samsung DeX Developer](https://samsung.com)**  
-
-  SDK, guidelines, and testing ecosystem for optimizing Android applications for external monitors, desktop mode, and keyboard/mouse accessories.
-
-
-
-- **[Genymotion Cloud](https://genymotion.com)**  
-
-  Cloud-hosted virtual Android device platform supporting sensor emulation, GPS/battery mocking, and CI/CD hardware test orchestration.
-
-
-
-- **[Vysor Cloud](https://vysor.io)**  
-
-  Commercial screen mirroring and remote device sharing platform allowing teams to share physical USB-connected Android devices over the web.
-
-
-
-- **[ADB Cloud / Remote TestKit](https://appkitbox.com)**  
-
-  Hosted cloud infrastructure providing direct remote ADB connections to physical Android devices for hardware-level debugging.
+| Platform | Company Valuation / Revenue | Starting Pricing Tier | Free Tier Limits / Free Trial | Description |
+|---|---|---|---|---|
+| **[AWS Device Farm](https://amazon.com)** | **$2.15T+ Market Cap** / $107B+ AWS Rev | $0.17 / device minute (Pay-as-you-go) or $250/month per unmetered device slot | **Free Trial**: One-time 1,000 device minutes trial for new accounts (no recurring monthly free tier) | Cloud-based app testing service providing remote access to real physical Android phones, tablets, and hardware configurations. |
+| **[Android Studio Cloud (Firebase Device Streaming)](https://android.com)** | **$2.10T+ Market Cap** / $307B+ Alphabet Rev | $0.15 / minute on Pay-as-you-go (Blaze Plan); Virtual test lab at $1.00/device-hr | **Free Plan**: Free tier on Firebase Spark plan with up to 120 device streaming minutes/month (and 10 virtual tests/day on Test Lab) | Google-hosted cloud IDE and remote device streaming environment for building, debugging, and testing Android apps on physical hardware via direct ADB over SSL. |
+| **[Google Play Console (Device Catalog & Pre-Launch Reports)](https://google.com)** | **$2.10T+ Market Cap** / $307B+ Alphabet Rev | $25 one-time registration fee (no recurring monthly platform subscription) | **Free Plan**: Free forever unlimited access to automated Pre-Launch Reports, Device Catalog, and crash analytics for all uploaded APKs/AABs | Official distribution and hardware compatibility platform providing automated physical device testing, crash diagnostics, and hardware targeting across the Android device ecosystem. |
+| **[Samsung DeX Developer](https://samsung.com)** | **$340B+ Market Cap** / ~$198B Rev | Completely free for registered developers ($0 / month) | **Free Plan**: Free forever access to DeX guidelines, multi-window SDKs, dual-mode APIs, and Samsung Remote Test Lab credits | SDK, guidelines, and testing ecosystem for optimizing Android applications for external monitors, desktop mode, and keyboard/mouse accessories. |
+| **[ADB Cloud / Remote TestKit](https://appkitbox.com)** | **~$90B+ NTT Group Rev** / ~$10.2M unit rev | $490 / month (Flat 1 Plan: 1 concurrent device rental, minimum 3-month commitment) | **Free Trial**: Evaluation trial available upon request, capped at 2 hours total (approx. 4 device sessions) | Hosted cloud infrastructure by NTT providing direct remote ADB connections to physical Android devices for hardware-level debugging and automated QA. |
+| **[BrowserStack App Live](https://browserstack.com)** | **$4.0B Valuation** / ~$225M ARR | $39 / month billed annually ($49/mo billed monthly) for Individual plan | **Free Trial**: 30 minutes total of interactive testing across real Android and iOS devices (single user, no credit card required) | Interactive cloud testing platform offering instant access to thousands of real physical Android devices with hardware sensor simulation and remote ADB debug tunnels. |
+| **[Sauce Labs Real Devices](https://saucelabs.com)** | **$613M Valuation** / ~$85M ARR | $199 / month billed annually ($249/mo billed monthly) for 1 real device parallel lane | **Free Trial**: 28-day free trial with 60 total minutes of automated and live testing on real and virtual devices | Enterprise real-device cloud enabling manual and automated testing across physical Android smartphones and tablets with deep hardware diagnostics. |
+| **[Genymotion Cloud](https://genymotion.com)** | **~$6M ARR** (Acquired by Shadow) | $0.05 / minute on Pay-as-you-go, or $179 / month flat rate per virtual device | **Free Trial**: 60 free minutes (max 2 concurrent devices) for individuals; 1,000 free minutes (up to 10 concurrent devices) for company verified trials | Cloud-hosted virtual Android device platform supporting sensor emulation, GPS/battery mocking, and CI/CD hardware test orchestration. |
+| **[Vysor Cloud](https://vysor.io)** | **Bootstrapped Indie / ~$1M–$3M ARR** (5M+ downloads) | $2.50 / month, $10.00 / year, or $40.00 lifetime license for Vysor Pro | **Free Plan**: Free forever plan limited to USB-only connection, SD resolution (~30fps, basic bitrate), ad-supported, no Vysor Share, and no drag-and-drop transfers | Commercial screen mirroring and remote device sharing platform allowing teams to share physical USB-connected Android devices over the web. |
 
 
 
